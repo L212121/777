@@ -1,5 +1,5 @@
 # 777
-777 term project
+#load libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, when
 from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler
